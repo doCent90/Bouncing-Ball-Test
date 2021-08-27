@@ -13,7 +13,7 @@ namespace IJunior.TypedScenes
     using UnityEngine.SceneManagement;
     
     
-    public class menu : TypedScene
+    public class Menu : TypedScene
     {
         
         private const string _sceneName = "Menu";
