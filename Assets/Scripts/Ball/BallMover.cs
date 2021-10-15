@@ -17,7 +17,7 @@ public class BallMover : MonoBehaviour
 
     private const int CountJumps = 1;
 
-    private void Start()
+    private void OnEnable()
     {
         _ballGroundPosition = transform.position;
     }

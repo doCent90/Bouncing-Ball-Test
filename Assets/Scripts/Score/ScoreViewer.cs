@@ -12,6 +12,7 @@ public class ScoreViewer : MonoBehaviour
     private void OnEnable()
     {
         _ball.Colleted += Increase;
+
         _scoreText.text = "Coins - 0";
     }
 
