@@ -16,6 +16,7 @@ public class PoolObjects : MonoBehaviour
         {
             int randomNumber = Random.Range(0, _template.Length - 1);
             var spawned = Instantiate(_template[randomNumber], transform.position, Quaternion.identity);
+
             spawned.SetActive(false);
             _pool.Add(spawned);
         }

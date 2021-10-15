@@ -12,7 +12,7 @@ public class ShowCredits : MonoBehaviour
         _animator.SetTrigger(_animationText);
     }
 
-    private void Start()
+    private void OnEnable()
     {
         _animator = GetComponent<Animator>();
     }
